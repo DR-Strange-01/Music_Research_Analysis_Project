@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Abdullah Ejaz Portfolio</title>
+  <meta name="title" content="Abdullah - Perosonal Portfolio Website">
+  <meta name="description" content="This is a personal portfolio website">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/pattern-2.svg">
+  <link rel="preload" as="image" href="./assets/images/pattern-3.svg">
+
+</head>
+
+<body id="top">
+
+<!-- 
+  - #HEADER
+-->
+
+<header class="header" data-header>
+    <div class="container">
+  
+      <a href="index.html" class="logo">
+        <img src="./assets/images/logo.svg" width="119" height="37" alt="Ab logo">
+      </a>
+  
+      <nav class="navbar" data-navbar>
+  
+        <div class="navbar-top">
+          <a href="index.html" class="logo">
+            <img src="./assets/images/logo.svg" width="119" height="37" alt="Ab logo">
+          </a>
+  
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+  
+        <ul class="navbar-list">
+  
+          <li>
+            <a href="index.html" class="navbar-link hover-1" data-nav-toggler>Home</a>
+          </li>
+  
+          <li>
+            <a href="AboutMe.html" class="navbar-link hover-1" data-nav-toggler>About Me</a>
+          </li>
+  
+          <!-- Research Dropdown -->
+          <li class="dropdown">
+            <a href="Research.html" class="navbar-link hover-1" data-nav-toggler>Research</a>
+            <ul class="dropdown-content">
+              <li><a href="Research.html#music-videos" class="navbar-link hover-1">Music Video?</a></li>
+              <li><a href="Research.html#prehistories" class="navbar-link hover-1">Prehistories</a></li>
+              <li><a href="Research.html#style-of-video" class="navbar-link hover-1">Style of Video</a></li>
+              <li><a href="Research.html#Make-a-video" class="navbar-link hover-1">Make a Video</a></li>
+            </ul>
+          </li>
+  
+          <!-- Analysis Dropdown -->
+          <li class="dropdown">
+            <a href="Analysis.html" class="navbar-link hover-1" data-nav-toggler>Analysis</a>
+            <ul class="dropdown-content">
+              <li><a href="Analysis.html#performance" class="navbar-link hover-1">Performance</a></li>
+              <li><a href="Analysis.html#narrative" class="navbar-link hover-1">Narrative</a></li>
+              <li><a href="Analysis.html#experimental" class="navbar-link hover-1">Experimental</a></li>
+              <li><a href="Analysis.html#pop-music" class="navbar-link hover-1">Pop Music</a></li>
+              <li><a href="Analysis.html#hiphop-music" class="navbar-link hover-1">Hip Hop Music</a></li>
+              <li><a href="Analysis.html#rock-music" class="navbar-link hover-1">Rock Music</a></li>
+              <li><a href="Analysis.html#other-rythms" class="navbar-link hover-1">Other Genres</a></li>
+              <li><a href="Analysis.html#more-details" class="navbar-link hover-1">More Details</a></li>
+            </ul>
+          </li>
+  
+          <li>
+            <a href="Contact.html" class="navbar-link hover-1" data-nav-toggler>Contact</a>
+          </li>
+        </ul>
+        <p class="copyright-text">Copyright 2024 © Abdullah.</p>
+        <p class="copyright-text">Developed by ѕтяαηgєr</p>
+      </nav>
+  
+        <a href="https://www.instagram.com/abdullah._ejazx/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Follow</a>
+  
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+  
+    </div>
+  </header>
+
+
+<!-- Research Section -->
+<main>
+    <section class="research" id="research">
+      <div class="container">
+        <h1 class="headline headline-1 section-title">
+          <span class="span">Research Work</span>
+        </h1>
+
+        <!-- Subheadings with Content -->
+
+        <!-- What is Music Videos? -->
+        <section id="music-videos" class="research-section">
+          <h2 class="headline headline-1 section-title">What is Music Videos?</h2>
+          <h3 class="subheading">"Music videos come in countless flavors, from the narrative and live performance
+            to the abstract"  </h3>
+          <img src="./assets/images/research-image-1.jpg" alt="Music Videos" class="research-img">
+          <p class="research-text">
+              Music videos are an essential outlet for artists and musicians alike, acting as a platform for cross-promotion and rampant creativity. They are also a fresh breeding ground for innovation, given their liberation from the constraints of realist narrative cinema—often ditching elements like continuity, rationalist lighting, and even, often, photographic representation. Allowing for special effects, cinematographic oddities, and whacky ideas to run amok, inspiring <strong>millions</strong> in their wake. 
+          </p>
+          <p class="research-text">
+            Furthermore, as music fans come from all walks of life, music video often functions as a fascinating bridge between visual art and popular culture, exposing viewers to new, cutting edge ideas in cinematic representation. Easy access to music videos is at an all-time high, as seen through YouTube's remarkable statistic that <strong>93%</strong> of the platform's most-watched videos in <strong>January 2020</strong> were music videos. Music videos bridge a gap between <strong>marketing/promotion</strong> and visual arts content—with it being elementary to argue that the primary purpose of most music videos is the promotion of music. But, as we have already discussed, there are deeper elements at play.
+          </p>
+        </section>
+        <div class="footer-top"></div>
+
+        <!-- Prehistories -->
+        <section id="prehistories" class="research-section">
+          <div class="content-wrapper">
+            <div class="text-wrapper">
+              <!-- First heading Prehistories -->
+              <h2 class="headline headline-1 section-title">Pre-Histories</h2>
+              <h3 class="subheading">The Evolution of Music Videos</h3>
+              <p class="research-text">
+                We find its precursors way back at the end of the <strong>19th century</strong> one early example is
+                <strong>Edward Marks and Joe Stern's</strong> form of marketing their sheet music business. They hired
+                an electrician, <strong>George Thomas</strong>, to promote their song <strong>"The Little Lost Child."</strong> Thomas
+                used the already famous magic lantern, a method of projecting images, to create a show
+                of sill images accompanied by live performances of the song. Of course, this multimedia
+                show was a hit, combining the already popular forms of <strong>vaudeville theatre</strong>  and the
+                technical marvel of photographic magic lantern shows. As such, the formation quickly
+                took off and was commonly known as the illustrated song. Although we can likely extend
+                the lineage of music video far beyond cinematic precursors, the use of the photographic
+                apparatus synchronized with sound, during a performance, is undoubtedly one of the
+                earliest moments of the music video, as we know it.<br><br>Music played a crucial role in early cinema, 
+                but often one entirely dissimilar to the music video. Live music was often performed during the screening of films, usually with
+                an official score. However, this form of <strong> cinematic experience</strong> coupled with live-music is
+                almost the inverse of the music video, which is, in effect, a score which is then
+                accompanied by visuals.
+              </p>
+            </div>
+            
+            <div class="image-wrapper">
+              <img src="./assets/images/prehistories-1.png" alt="Prehistories" class="research-img">
+              <p class="image-caption subheading">Famous Magic lantern, a method of projecting images, to create a show
+                of still images accompanied by live performances of the song.</p>
+            </div>
+            
+            <p class="research-text">
+              This distinction is vital in separating lots of <strong>"talkies," "soundies,"</strong>  and musical films from
+              the medium of the music video. Although they are still important, our above example of
+              <strong>The Little Lost Child</strong>  comes closer to the modern music video than most live-action early
+              cinema. Nevertheless, a good history should include external influencers as much as the key
+              players. The "talkie" arrived in the <strong>mid-1920s</strong> , with the most prominent example being
+              The Jazz Singer. Following the success of talkies, many musical short films began being
+              <strong>produced—Warner Brothers</strong>  was a key player here, creating many <strong>Vitaphone Shorts</strong> ,
+              which became one of the tent poles of early sound films. Another reason for the form's
+              popularisation was early animation, <strong>Walt Disney's Silly</strong>  Symphonies and
+              ground-breaking Fantasia provided instrumental audio-visual works.<br><br> While <strong>Max Fleischer's</strong>  Screen Songs—short sing-along cartoons of popular
+              songs—solidified a link with popular music. Both <strong>Fantasia and Fleischer's</strong>  cartoons
+              utilized readymade popular music, making them remarkably similar to the modern
+              music video—with the significant difference being these were commercial products in
+              themselves, not used for the promotion of a specific musician. <strong>Warner Bros. cartoons,</strong> 
+              however, bridged this gap with Looney Tunes and Merrie Melodies, often including
+              songs from upcoming Warner Bros. musicals, arguably introducing the idea of
+              promotion and the tie-in (music and video being created for a different product) music
+              videos. Furthermore, within the <strong>1920s avant-garde</strong>  explorations of visual-music,
+              animation videos were used rampantly to translate the majestic qualities of music into
+              audio-visual experiences.
+            </p>
+            <img src="./assets/images/prehistories-2.png" alt="Prehistories" class="research-img">
+            <p class="research-text">
+              Experiments like <strong>Hans Richter's Rhythmus 21 (1921)</strong>  or <strong>Walther Ruttmann's Lichtspiel
+              Opus I (1921)</strong>  explore a direct representation of music into an abstract visual language.
+              Thus, it becomes clear that animation had an instrumental role in the early explorations
+              of the music video.
+              Between <strong>1920 and 1950</strong> , live-action cinema also had its forays into the music video.
+              "Soundies" were musical films often including dance/performative sequences. However,
+              these, and other musical films, continued to fall away from traditional music video
+              elements as they were created in conjunction with one another instead of the music
+              directly instigating the creation of the video. That said, films like <strong>Louis Jordan's</strong>  Lookout
+              <strong>Sister (1947)</strong> , a Western musical, pulled together a bank of the singer's most famous
+              songs and tacked them to a vague narrative, leaving it somewhere between a
+              feature-long music video and a musical feature.
+            </p>
+            <div class="text-wrapper">
+              <!-- 2nd sub-heading 1950-1980 -->
+              <h2 class="subheading">1950-1980</h2>
+              <p class="research-text">
+                In his autobiography, <strong>Tony Bennet</strong>  claims to have created "the first music video"—a
+                short film of him walking along the Serpentine in <strong>Hyde Park, London.</strong> The video was
+                edited and set to his song Stranger in Paradise. The clip was later aired in both the UK
+                and the US. Although his self-proclamation of being the first is mainly questionable,
+                there was a move towards this style of promotional music videos, much closer to the
+                form we know today.<br><br> It's also important to recall that this history is not an Anglophone one alone, as the
+                avant-garde shorts above have already demonstrated. By the <strong>late 1950s</strong>, the Scopitone, a
+                sort of visual jukebox, was invented in France and quickly spread throughout <strong>Europe</strong>. As
+                such rival devices came to market, from the Cinebox in Italy to the Color-sonic in the
+                USA, providing a steadfast way to view music videos outside of a cinema or specialist
+                setting.<br><br>As with any innovation, an increase in the capability to distribute brought a swath of
+                new content, both independently created and commissioned. Promotional music videos
+                (videos that follow/illustrate a readymade song) became a prevalent occurrence across
+                <strong>Europe and the US</strong>. This increase in production birthed many of the music videos styles
+                we know today, from narrative and performance through the experimental concepts. It
+                popularised the form as a legitimate form of entertainment while slowly disconnecting
+                from the cinema space.<br><br>By the <strong>mid-60s</strong>, the music video was well on its way to the total domination of music
+                promotion. The Beatles starred in their first feature, A <strong>Hard Day's Night in 1964</strong>  and
+                Help! In <strong>1985</strong> . Sparking The Monkees to begin the <strong>two-year TV series The Monkees
+                (1966-68)</strong>  on the other side of the Atlantic.
+              </p>
+            </div>
+            
+            <div class="image-wrapper">
+              <img src="./assets/images/prehistories-3.png" alt="Prehistories" class="research-img">
+            </div>
+            <p class="research-text">
+              Both of these minced together performance
+              set pieces with historical moments, which ultimately promoted the bands as pop icons,
+              not merely providers of catchy tunes. Furthermore, <strong>"filmed inserts"</strong> became common
+              marketing materials, providing small promotional clips of the groups playing, to be
+              distributed worldwide.<strong>1964 </strong> also saw the beginning of Top of the Pops in the UK, followed quickly by
+              <strong>Hullabaloo in the US, in 1965</strong>. Both of these were musical variety TV shows which saw
+              transmitted live performances to millions at home. Due to a rapid increase in demand,
+              these shows quickly picked up "filmed inserts" and other short-form music content to
+              pad out their runtime. However, most of these still consisted primarily of recorded
+              performance or dance. By now, music videos were a staple in music marketing, being a
+              tried and tested method of raising groups such as <strong>The Beatles and The Monkees into
+              superstardom</strong>. Better yet, music videos allowed the quick distribution of entertainingly
+              consumable publicity content worldwide.
+            </p>
+          </div>
+          <br>
+           <!-- Image container -->
+           <div class="image-container">
+            <div class="image-box">
+              <img src="./assets/images/prehistories-4.png" alt="Image" class="responsive-image">
+            </div>
+            <div class="image-box">
+              <img src="./assets/images/prehistories-5.png" alt="Image" class="responsive-image">
+            </div>
+          </div>
+          <p class="image-caption subheading">"Music videos became a pop culture phenomenon; consumers couldn't get enough
+            of them."</p>
+          <br>
+          <p class="research-text">
+            <strong>Ten years later</strong>, music videos were so deeply rooted in pop culture that all
+            top-performing artists were nearly required to defend their music with an
+            accompanying music video. After the initial period of gestation, music videos began to
+            flourish from more than pure performance videos, creating an identity for musicians
+            and bands off the stage. Musicians like <strong>David Bowie and Queen</strong> perfected this, creating
+            huge personas beyond their music and performances. Resulting in videos such as the
+            landmark <strong> Bohemian Rhapsody (1975)</strong>, which many, including <strong>Historian Paul Fowles</strong>,
+            class as "the first global hit single for which an accompanying video was central to the
+            marketing strategy." That is to say that by this point, music videos had eclipsed many
+            traditional forms of marketing, becoming the primary method to market both music and
+            musician.
+          </p>
+          <br>
+          <!-- 3rd sub-heading The MTV Era -->
+          <h2 class="subheading">The MTV Era</h2>
+          <p class="research-text">
+            The music video had already penetrated television since Top of the Pops, but in <strong> 1979 the
+            US</strong> saw its first channel utterly devoted to the form: Video Concert Hall. However, two
+            years later, <strong>MTV (then, Music Television)</strong> launched. Commencing their early broadcast
+            by airing <strong> The Buggles' "Video Killed the Radio Star,"</strong> in a prophetic move marking the
+            need for a visual representation of musical artists that would become, and remains, the
+            norm today.
+          </p>
+          <br>
+          <img src="./assets/images/prehistories-6.png" alt="Prehistories" class="research-img">
+          <p class="image-caption subheading">"MTV was the first 24-hour television station devoted to music. As such, stardom and
+            fandom continued to rise sharply in this era of mass-media, promoting celebrity
+            musicians as superhuman and godly."</p>
+          <br>
+          <p class="research-text">
+            The introduction of these <strong> two new platforms</strong>, again, lead to a sharp increase in demand
+            for content, production of content, and effectiveness of music video as a form of
+            self-promotion. The need for content coupled with recent innovations in video recording
+            and editing, resulting in affordable devices that freelancers could purchase, led to an
+            explosion in music <strong> video prevalence—resulting</strong> in wrath of cheaply made music videos.
+            The new style of music video production contrasted immensely with the big-budget
+            celluloid music films which preceded them. This wealth of <strong> production inevitably</strong> leads to
+            a tremendous amount of innovation for the medium. With affordable video equipment becoming more commonplace, it's also important to
+            acknowledge the cross-over between many sub-cultures and the music video form. A
+            vast underground output was coming from <strong> counter-cultural groups</strong> like skaters,
+            <strong>anarchists</strong>, which, again, find their way to influence and shape the mainstream.
+            Individuals like <strong> David Bowie</strong> began to use the form as a model for social commentary, as
+            found in his videos for <strong> China Girl and Let's Dance (both 1983)</strong>. In an interview on the
+            topic, he famously said:
+            <p class="image-caption subheading">"Let's try to use the video format as a platform for some kind of
+            social observation, and not just waste it on trotting out and trying to enhance the public
+            image of the singer involved."</p>
+            <br> Of course, it can be hard to take such a message entirely
+            seriously from an individual who already holds a vast celebrity status. Still, it is a crucial
+            moment in introducing real-world importance for the ideologies presented within music
+            video—and one far beyond consumerist tendencies. This sentiment arguably leads to
+            popular social videos from <strong> Michael Jackson's Black or White and Pink's Family Portrait
+            to Kendrick Lamar's Alright or Childish Gambino's This is America.</strong>
+          </p>
+          <div class="content-wrapper">
+          <div class="text-wrapper">
+            <p class="research-text">
+              Similarly, <strong> Michael Jackson's Thriller</strong>, one of the most expensive videos of the period
+              with a budget of<strong> $800,000</strong>, became instrumental in making space for African American
+              music videos on MTV. Before the video,<strong> African American</strong> artists seemed almost
+              boycotted by the platform, with many musicians such as Rick James being flat-out
+              rejected. The videos that were accepted often aired late into the night between <strong> two and
+              six AM</strong> when almost nobody was watching.<br><br>
+              <strong> Censorship </strong>is a crucial debate that still surrounds music videos. As the medium often
+              finds wide public distribution on television or, more recently, online, much content that
+              is deemed offensive or inappropriate was censored, leading to a large amount of
+              counter-culture or experimental content being pushed to the side.<br><br>
+              Throughout the <strong> 1980s many channels</strong> popped up in the US and worldwide, with
+              Country Music Television launching in <strong> 1983, VH1 (owned by MTV) in 1985, MTV
+                Europe in 1987, MTV Asia in 1991, MTV Latin America in 1993, MTV India in 1996,
+                MTV Mandarin in 1997 and MTV2 in 1996</strong>. As we can see from this list alone, MTV
+              dominated both the US and worldwide markets, and although other programs did exist
+              across the globe, MTV indeed leads the way.
+            </p>
+          </div>
+          
+          <div class="image-wrapper">
+            <img src="./assets/images/prehistories-7.png" alt="Prehistories" class="research-img">
+            <p class="image-caption subheading">Michael Jackson's Thriller, music videos on MTV</p>
+          </div>
+        </div>
+        <p class="research-text">
+          During this <strong> rapid expansion of MTV</strong>, music video directors began to gain
+          attention—especially as the channel started to credit the creative alongside the
+          musicians in <strong> 1992</strong>. As such, a wave of music video auteurs arose who are, primarily,
+          considered those who <strong> defined the medium—many</strong> of whom still produce videos today.
+          Giants like <strong> Hype Williams, Mark Romanek, Michel Gondry, Spike Jonze, and Chris
+            Cunningham</strong> all picked up the medium around this time. It was undoubtedly an exciting
+          period for these creative, as the new(ish) medium needed shaping and defining.
+        </p>
+        <br>
+        <!-- 4th sub-heading The Internet Age -->
+        <h2 class="subheading">The Internet Age</h2>
+        <img src="./assets/images/prehistories-8.png" alt="Prehistories" class="research-img">
+        <!-- <p class="image-caption subheading">"MTV was the first 24-hour television station devoted to music. As such, stardom and
+          fandom continued to rise sharply in this era of mass-media, promoting celebrity
+          musicians as superhuman and godly."</p> -->
+        <br>
+          <p class="research-text">
+            The <strong> website iFilm, established in 1997</strong>, was one of the first places on the internet to host
+            music videos, along with other short-form content. The rise of <strong> Napster, LimeWire,
+            Kazaa</strong>, and other peer-to-peer sharing services saw a spike in the ability to share music
+            video content free of charge and on-demand. However, due to their illicit nature, most
+            of these sites were closed over time. Nevertheless, they created a <strong> thirst for (free)
+            accessible content, and YouTube, launched in 2005</strong>. YouTube quickly dominated
+            becoming the prime outlet for free streamed music video content. While many other
+            platforms have tried to take a piece of the pie YouTube, as we all know, holds the prime
+            spot. Due to the rise in free online content, MTV inevitably collapsed. Although the channel
+            continues to function,<strong> by 2005</strong>, it had abandoned most music videos in favor of reality
+            television shows, which drew much larger audiences and thus turned better profits.
+            As we all live in the modern world, the contemporary state of the music video is
+            apparent to a lot of us; moreover, due to the endless expansion of distribution channels,
+            the variability and range of music videos are now phenomenal. <strong> Let's break this down in
+            our next section.</strong>
+          </p>
+        </section>
+        <div class="footer-top"></div>
+
+
+        <!-- Style of Video -->
+        <section id="style-of-video" class="research-section">
+          <h2 class="headline headline-1 section-title">Style of Video</h2>
+          <h3 class="subheading">Different visual Approaches</h3>
+          <img src="./assets/images/style-of-video-1.png" alt="Style of Video" class="research-img">
+          <p class="research-text">
+            To define the general stylistic trends in music videos would take thousands of words.
+            But here we can split them into several categories of style and distribution.
+            Distribution is a simple divide between <strong> two fundamental modes:</strong> the video single, and
+            the video album. The video single is, of course, the form the vast majority of music
+            videos <strong>take—whereby one track (single) </strong>is taken, and a video is produced for that track.
+            Conversely, video albums are quite rare, especially in <strong>western music</strong>. Video albums,
+            usually distributed on DVD, saw relative success in Western music in the early 2000s,
+            with full-length visualizations such as<strong> Björk's All Is Full of Love (1999) or Madonna's
+              Music (2000)</strong>. However,<strong> Japan</strong>, in particular, still sees much success in the video album,
+            which is often distributed in the<strong>CD+DVD format—also</strong> helped by Japan's tendency to
+            buy physical copies of CDs.<br><br>
+            Both the video single and the video album can, of course, be for<strong> commercial or
+              non-commercial purposes</strong> and can be produced either independently or by the record
+            label/musician. However, commercial videos produced by the record<strong> label/musician</strong> is
+            by far the norm. A third, rarer form of music video distribution exists, which is that for
+            <strong>installation/live performance</strong>. But because of their comparatively minuscule slice of the
+            market, we will not discuss them today.
+            The style has fewer simple distinctions. However, we can look at four of the critical
+            modes:<strong> performance, narrative, experimental, and tie-in</strong>.
+            The performance music video consists of, you guessed it, a performance of the song by
+            the musician—similar to many of the early<strong> Beatles' filmed inserts</strong>.
+            Narrative music videos aim to tell a vague story and are, as such, a bit closer to
+            traditional forms of<strong> narrative cinema</strong>. These stories can follow the performer or other
+            actors but often aim to reveal some deeper theme or meaning behind the music. Most
+            secular music videos, and the like, can be found in this category.<br><br>
+            Experimental videos are something entirely different; they don't show the performer
+            traditionally performing the song, and they don't focus on<strong> narrative storytelling</strong>. This
+            can range from<strong> experimental graphic videos (Arca's Thievery), visual music (Hans
+              Richter's Rhythmus 21), and the downright bizarre (Aphex Twin's Rubber Johnny)</strong>.
+            These can, to be honest, be almost anything and are thus much harder to pin down.
+            Tie-in music videos are most common in advertising, as they see a song and video being
+            created for a purpose outside directly promoting the song.<strong> For example</strong>, a video for Toss
+            a Coin to Your Witcher, utilizing images from The Witcher TV show, or Dumb Ways to
+            Die, an infographic animation explaining how to stay safe in the modern world,<strong> are good
+              examples of tie-in music videos</strong>.<br><br>
+            To complicate all these categories further, the majority of videos will mince a few of
+            these modest into a<strong> composite video—often</strong> creating a narrative interspersed with
+            performances of the<strong> band (Blur's Coffee and TV)</strong>, or creating an experimental
+            performance. Thus the wealth of styles and modes is immense. Still, with these few
+            categories, we can begin to categorize music videos much more efficiently and, more
+            importantly,<strong> understand how to communicate our ideas to others</strong>.
+          </p>
+        </section>
+        <div class="footer-top"></div>
+
+        <!-- Make a Video -->
+        <section id="Make-a-video" class="research-section">
+          <h2 class="headline headline-1 section-title">How to Make a Music Video</h2><br>
+        
+          <h3 class="subheading">1. Find a <strong>song/musician/filmmaker</strong> that you connect with</h3>
+          <p class="research-text">The filmmaker and musician need to appreciate each other's work to produce a product that is transcendent and coherent. Aspiring music video directors should search out/approach musicians from genres or styles which they vibe with. Similarly, musicians should try to work with filmmakers who understand and appreciate their music. Once you've found a partner whose work you are excited about, you already have a starting point of inspiration.</p>
+        
+          <h3 class="subheading">2. Refine the concept</h3>
+          <p class="research-text">Firstly, who is coming up with the concept? Some musicians will have a clear creative visual image of what they want, while others may leave the entire process to the production house. The majority of cases fall between these extremes. But whoever is coming up with the concept, you must refine it. What is the style you are going for? What is the mode of distribution? What is the intention? For more on this, see creating a brief in the next section!</p>
+        
+          <h3 class="subheading">3. Communicate your ideas to the whole team</h3>
+          <p class="research-text">Communication is vital for any creative process, and music videos are no different. Explaining a concept can be harder when working across two mediums, especially as filmmakers may be less versed in a musician's terminology, and musicians less habitual to video production aspects. Tools such as mood-boards, inspirational videos, storyboards, and detailed plans are invaluable. Once you have these, bring the team together to discuss the concept, making sure the filmmaker and musician are happy to go ahead with the idea. It's easiest to make any changes now, so be thorough.</p>
+        
+          <h3 class="subheading">4. What do you need?</h3>
+          <p class="research-text">Now's the time to put your production hat on if you are producing it yourself—and if you have hired a producer, it's time for them to get going. Accumulate your cast, crew, locations, equipment, and any peripheral members of the team, from <strong>VFX</strong> to animation. As music-videos often run on extraordinarily tight or huge budgets, this part of the process can be big or small. Again, make sure to devote a reasonable amount of time to pre-production.</p>
+        
+          <h3 class="subheading">5. Plan the Shoot</h3>
+          <p class="research-text">While your producer is getting all the practicals together, it's time to draw on the original concept, feedback, plus new ideas that have been introduced. Pull together as many aspects of previsualization as you can—from storyboards to scene blockings and shot lists. Of course, again, this process will vary between each production, but ensure you and your team are ready to execute the concept.</p>
+        
+          <h3 class="subheading">6. Shoot it</h3>
+          <p class="research-text">It's hard to envision what will happen on each music video shoot, as they each tend to be a unique experience. But given your pre-production process was successful, you should have a clear vision and plan to execute. There are, however, two key points you should focus on while shooting a music video. Firstly, are you gathering enough footage? Make sure you are getting plenty of <strong>B-roll</strong>, various performance clips, angles, and ultimately enough coverage of your content. Often, the musicians will not be able to come in for another day of shooting. Sometimes, they don't even show up! Secondly, in cases such as those, be open to new ideas and developments on the day. Flexibility to react to new ideas from the creatives you're working with (especially the musicians) is paramount when shooting music videos. That said, make sure you still complete your initial plan too!</p>
+        
+          <h3 class="subheading">7. The Edit</h3>
+          <p class="research-text">This process varies hugely between productions. Many contemporary music videos, especially for <strong>Hip-hop</strong>, require a phenomenal amount of technical trickery to produce bizarre special-effect cuts, transitions, and moments. Thus, make sure your editor is experienced with the style of video you are trying to create—you don't necessarily want a documentary editor to be editing an <strong>A$AP Mob</strong> video. That said, the editing process is often where many music videos falter. Remember, use the edit to complement the music, but also, use the music video medium as a way to liberate yourself from a lot of cinematic norms—if your concept permits!</p>
+        
+          <h3 class="subheading">8. Refine the Final Product with the Musician</h3>
+          <p class="research-text">If they haven't been involved in the process of editing already, be sure to present the musician(s) with a near-finished draft of the work (don't send one too early!) for feedback and refinement. As a filmmaker, you are, in most cases, making the music video for the group. Thus, it must be something that they are happy with. Bringing the musicians back into the process of editing can help ensure that this is the case.</p>
+        </section>
+        <div class="footer-top"></div>
+        <p class="image-caption subheading">Appreciate for Reading my Research Article !!! Hope so you have learned something NEW  :)</p>     
+      </div>
+    </section>
+  </main>
+
+
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="container">
+  
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; Developed by <a href="#" class="copyright-link">ѕтяαηgєr</a>
+        </p>
+  
+        <ul class="social-list">
+          <li>
+            <a href="https://www.facebook.com/share/NR9snGd8MEPrptQS/" class="social-link" target="_blank" rel="noopener noreferrer">
+              <ion-icon name="logo-facebook"></ion-icon>
+              <span class="span">Facebook</span>
+            </a>
+          </li>
+  
+          <li>
+            <a href="https://www.linkedin.com/in/abdullah-ejaz-2918031b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link" target="_blank" rel="noopener noreferrer">
+              <ion-icon name="logo-linkedin"></ion-icon>
+              <span class="span">LinkedIn</span>
+            </a>
+          </li>
+  
+          <li>
+              <a href="https://www.instagram.com/abdullah._ejazx/" class="social-link" target="_blank" rel="noopener noreferrer">
+              <ion-icon name="logo-instagram"></ion-icon>
+              <span class="span">Instagram</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+  
+    </div>
+  </footer>
+  
+  <!-- BACK TO TOP BUTTON -->
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+  </a>
+  
+  <!-- SCRIPTS -->
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+  
+  </html>  

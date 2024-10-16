@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Abdullah Ejaz Portfolio</title>
+  <meta name="title" content="Abdullah - Perosonal Portfolio Website">
+  <meta name="description" content="This is a personal portfolio website">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/pattern-2.svg">
+  <link rel="preload" as="image" href="./assets/images/pattern-3.svg">
+
+</head>
+
+<body id="top">
+
+<!-- 
+  - #HEADER
+-->
+
+<header class="header" data-header>
+    <div class="container">
+  
+      <a href="index.html" class="logo">
+        <img src="./assets/images/logo.svg" width="119" height="37" alt="Ab logo">
+      </a>
+  
+      <nav class="navbar" data-navbar>
+  
+        <div class="navbar-top">
+          <a href="index.html" class="logo">
+            <img src="./assets/images/logo.svg" width="119" height="37" alt="Ab logo">
+          </a>
+  
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+  
+        <ul class="navbar-list">
+  
+          <li>
+            <a href="index.html" class="navbar-link hover-1" data-nav-toggler>Home</a>
+          </li>
+  
+          <li>
+            <a href="AboutMe.html" class="navbar-link hover-1" data-nav-toggler>About Me</a>
+          </li>
+  
+          <!-- Research Dropdown -->
+          <li class="dropdown">
+            <a href="Research.html" class="navbar-link hover-1" data-nav-toggler>Research</a>
+            <ul class="dropdown-content">
+              <li><a href="Research.html#music-videos" class="navbar-link hover-1">Music Video?</a></li>
+              <li><a href="Research.html#prehistories" class="navbar-link hover-1">Prehistories</a></li>
+              <li><a href="Research.html#style-of-video" class="navbar-link hover-1">Style of Video</a></li>
+              <li><a href="Research.html#Make-a-video" class="navbar-link hover-1">Make a Video</a></li>
+            </ul>
+          </li>
+  
+          <!-- Analysis Dropdown -->
+          <li class="dropdown">
+            <a href="Analysis.html" class="navbar-link hover-1" data-nav-toggler>Analysis</a>
+            <ul class="dropdown-content">
+                <li><a href="Analysis.html#performance" class="navbar-link hover-1">Performance</a></li>
+                <li><a href="Analysis.html#narrative" class="navbar-link hover-1">Narrative</a></li>
+                <li><a href="Analysis.html#experimental" class="navbar-link hover-1">Experimental</a></li>
+                <li><a href="Analysis.html#pop-music" class="navbar-link hover-1">Pop Music</a></li>
+                <li><a href="Analysis.html#hiphop-music" class="navbar-link hover-1">Hip Hop Music</a></li>
+                <li><a href="Analysis.html#rock-music" class="navbar-link hover-1">Rock Music</a></li>
+                <li><a href="Analysis.html#other-rythms" class="navbar-link hover-1">Other Genres</a></li>
+                <li><a href="Analysis.html#more-details" class="navbar-link hover-1">More Details</a></li>
+            </ul>
+          </li>
+  
+          <li>
+            <a href="Contact.html" class="navbar-link hover-1" data-nav-toggler>Contact</a>
+          </li>
+        </ul>
+        <p class="copyright-text">Copyright 2024 © Abdullah.</p>
+        <p class="copyright-text">Developed by ѕтяαηgєr</p>
+      </nav>
+  
+        <a href="https://www.instagram.com/abdullah._ejazx/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Follow</a>
+  
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+  
+    </div>
+  </header>
+
+    <main>
+        <section class="analysis" id="analysis">
+            <div class="container">
+                <h1 class="headline headline-1 section-title">
+                    <span class="span">Music Genre Analysis</span>
+                </h1>
+
+                <!-- Performance Section -->
+                <section id="performance" class="analysis-section">
+                    <h1 class="headline headline-1 section-title">Performance</h1>
+                    <div class="footer-top"></div>
+                    <br>
+                    <h2 class="headline headline-2 section-title">Pink Floyd: Live From Pompeii</h2>
+                    <p class="research-text">A fundamental performance video-album.</p>
+                    <br>
+                    <h2 class="headline headline-2 section-title">Seventeen: Fear</h2>
+                    <p class="research-text">A frenetic example of fandom-style experimental performance.</p>
+                    <a href="https://www.youtube.com/watch?v=ap14O5-G7UA" target="_blank" class="video-link">Watch SEVENTEEN(세븐틴) - 독</a>
+                    <br>
+                    <h3 class="headline headline-2 section-title">Psy: Gangnam Style</h3>
+                    <p class="research-text">A "pop-video" displaying the prevailing trend of unique dance-moves through performance video.</p>
+                    <a href="https://www.youtube.com/watch?v=9bZkp7q19f0" target="_blank" class="video-link">Watch GANGNAM STYLE(강남스타일)</a>
+                    <br>
+                    <h3 class="headline headline-2 section-title">Tyler the Creator: Yonkers</h3>
+                    <p class="research-text">A mood-focused performance video, verging into experimental modes of presentation, and vague narrative.</p>
+                    <a href="https://www.youtube.com/watch?v=XSbZidsgMfw" target="_blank" class="video-link">Watch Tyler The Creator - Yonkers</a>
+                </section>
+
+
+                <!-- Narrative Section -->
+                <section id="narrative" class="analysis-section">
+                    <h1 class="headline headline-1 section-title">Narrative</h1>
+                    <div class="footer-top"></div>
+                    <br>
+                    <h3 class="headline headline-2 section-title">Caravan Palace: Lone Digger</h3>
+                    <p class="research-text">A beautiful take on animated narrative music videos, almost a tie-in with the landmark game Hotline Miami.</p>
+                    <a href="https://www.youtube.com/watch?v=UbQgXeY_zi4" target="_blank" class="video-link">Watch Caravan Palace - Lone Digger</a>
+                    <br>
+                    <h3 class="headline headline-2 section-title">The Blaze: Territory/Virile</h3>
+                    <p class="research-text">A genuinely artistic vision, representing the emotion of a song in video form.</p>
+                    <a href="https://www.youtube.com/watch?v=54fea7wuV6s" target="_blank" class="video-link">Watch The Blaze - TERRITORY</a>
+                </section>
+
+                <!-- Experimental Section -->
+                <section id="experimental" class="analysis-section">
+                    <h1 class="headline headline-1 section-title">Experimental</h1>
+                    <div class="footer-top"></div>
+                    <br>
+                    <h3 class="headline headline-2 section-title">Jay Z: The Story of OJ</h3>
+                    <p class="research-text">Social commentary delivered through a masterfully crafted animated performance.</p>
+                    <a href="https://www.youtube.com/watch?v=RM7lw0Ovzq0" target="_blank" class="video-link">Watch JAY-Z - The Story of O.J.</a>
+                    <br>
+                    <h3 class="headline headline-2 section-title">Aphex Twin: Rubber Johnny</h3>
+                    <p class="research-text">An absolutely insane example of experimental live-action/CG music video.</p>
+                    <a href="https://www.youtube.com/watch?v=eRvfxWRi6qQ" target="_blank" class="video-link">Watch Rubber Johnny by Chris</a>
+                    <br>
+                    <h3 class="headline headline-2 section-title">Kendrick Lamar: Humble</h3>
+                    <p class="research-text">Lying somewhere between performance, narrative and purely experimental, Lamar's Humble brings together a bunch of vignettes, helping to continue to build his persona as a socially conscious musician experimenting with music video form.</p>
+                    <br>
+                    <h3 class="headline headline-2 section-title">A$AP ROCKY/MOB: Yamborghini High</h3>
+                    <p class="research-text">An original music video in popularising Datamoshing as a method of producing a favorable aesthetic, again also employing performance.</p>
+                    <a href="https://www.youtube.com/watch?v=tt7gP_IW-1w" target="_blank" class="video-link">Watch A$AP Mob - Yamborghini High</a>
+                </section>
+
+                <!-- Pop Music Genre -->
+                <section id="pop-music" class="analysis-section">
+                    <h1 class="headline headline-1 section-title">Pop Music Genre</h1>
+                    <div class="footer-top"></div>
+                    <br>
+                    <h3 class="headline headline-2 section-title">Definition of Pop Music</h3>
+                    <p class="research-text">Pop music (from the English pop music, a contraction of popular music), also known simply as pop, is a genre of popular music that originated in the late 1950s as a derivation of traditional pop, in combination with other musical genres that were fashionable at that time.</p>
+                    <a href="https://www.youtube.com/watch?v=DyDfgMOUjCI" target="_blank" class="video-link">Watch Billie Eilish - bad guy</a>
+                </section>
+
+                <!-- Hip Hop Music Genre -->
+                <section id="hiphop-music" class="analysis-section">
+                    <h1 class="headline headline-1 section-title">Hip Hop Music Genre</h1>
+                    <div class="footer-top"></div>
+                    <br>
+                    <h3 class="headline headline-2 section-title">Definition of Hip Hop Music</h3>
+                    <p class="research-text">Dance music style born in the United States of America in the 1970s as a derivative of funk and characterized by its electronic base and for being associated with alternative manifestations such as break dance or graffiti. It uses a technique named "Rapping" which is poetry spoken rhythmically.</p>
+                    <a href="https://www.youtube.com/watch?v=YVkUvmDQ3HY" target="_blank" class="video-link">Watch Eminem - Without Me</a>
+                </section>
+
+                 <!-- Rock Music Genre -->
+                <section id="rock-music" class="analysis-section">
+                    <h1 class="headline headline-1 section-title">Rock Music Genre</h1>
+                    <div class="footer-top"></div>
+                    <br>
+                    <h3 class="headline headline-2 section-title">Definition of Rock Music</h3>
+                    <p class="research-text">Rock music is a style born in the 1960s as a derivative of rock and roll and characterized by the use of complex melodies and rhythms, with fairly fixed instrumentation (basically electric guitar, electric bass, keyboard and drums) and with an energetic rhythm underlined by the power of the bass and the drums, all of which is often linked to an anti-authoritarian and provocative attitude; it has developed a multitude of variants and has given way to new styles, such as pop, punk or heavy.</p>
+                    <a href="https://www.youtube.com/watch?v=G-Bn_kD6QN4" target="_blank" class="video-link">Watch Metallica: The Unforgiven II</a>
+                </section>
+
+                <!-- Rhythm and Blues Music Genre -->
+                <section id="other-rythms" class="analysis-section">
+                    <h1 class="headline headline-1 section-title">Rhythm and Blues Music Genre</h1>
+                    <div class="footer-top"></div>
+                    <br>
+                    <h3 class="headline headline-2 section-title">Definition of Rhythm and Blues Music</h3>
+                    <p class="research-text">Musical style born in the 1940s as a derivative of blues and related to jazz, soul and gospel; It is characterized by being a mainly vocal genre, typical of solo singers or grouped in quartets or quintets that accompany their voice with the interventions of a choir.</p>
+                    <a href="https://www.youtube.com/watch?v=71Gt46aX9Z4" target="_blank" class="video-link">Watch Gary B.B. Coleman - The Sky is Crying</a>
+                </section>
+
+                <!-- Country Music Genre -->
+                <section id="country" class="analysis-section">
+                    <h1 class="headline headline-1 section-title">Country Music Genre</h1>
+                    <div class="footer-top"></div>
+                    <br>
+                    <h3 class="headline headline-2 section-title">Definition of Country Music</h3>
+                    <p class="research-text">Country (also called country & western, country music or country music) is a musical genre that emerged in the 1920s in the rural regions of the South of the United States and in the Maritimes of Canada and Australia. In its origins, it combined the folk music of some European immigrant countries, mainly Ireland, with other musical forms, such as blues, bluegrass and spiritual and religious music, such as gospel.</p>
+                    <a href="https://www.youtube.com/watch?v=t7bQwwqW-Hc" target="_blank" class="video-link">Watch Shaboozey - A Bar Song (Tipsy)</a>
+                </section>
+
+                <!-- Funk Music Genre -->
+                <section id="funk" class="analysis-section">
+                    <h1 class="headline headline-1 section-title">Funk Music Genre</h1>
+                    <div class="footer-top"></div>
+                    <br>
+                    <h3 class="headline headline-2 section-title">Definition of Funk Music</h3>
+                    <p class="research-text">Funk is a vibrant and rhythmic music genre that emerged in the mid-1960s, blending elements of soul, jazz, and R&B. Characterized by its strong bass lines, syncopated rhythms, and emphasis on groove, funk music focuses on creating a danceable beat that invites movement. Key features include the use of horns, electric guitars, and intricate drum patterns, often accompanied by catchy melodies and energetic vocals.</p>
+                    <a href="https://www.youtube.com/watch?v=l4nOHdUntyM" target="_blank" class="video-link">Watch George Clinton - We Got the Funk</a>
+                </section>
+
+                <!-- Folk Music Genre -->
+                <section id="folk" class="analysis-section">
+                    <h1 class="headline headline-1 section-title">Folk Music Genre</h1>
+                    <div class="footer-top"></div>
+                    <br>
+                    <h3 class="headline headline-2 section-title">Definition of Folk Music</h3>
+                    <p class="research-text">Folk music is a genre that encompasses the traditional songs and melodies of a particular culture or community, often passed down orally through generations. It reflects the everyday life, experiences, and values of the people, frequently addressing themes such as love, work, nature, and social issues. Folk music is characterized by its simplicity and authenticity, often featuring acoustic instruments like guitars, banjos, fiddles, and harmonicas.</p>
+                    <a href="https://www.youtube.com/watch?v=-C0yUQOEBiM" target="_blank" class="video-link">Watch Balochi Folk - Mumtaz Sabzal</a>
+                </section>
+
+                <!-- Jazz Music Genre -->
+                <section id="jazz" class="analysis-section">
+                    <h1 class="headline headline-1 section-title">Jazz Music Genre</h1>
+                    <div class="footer-top"></div>
+                    <br>
+                    <h3 class="headline headline-2 section-title">Definition of Jazz Music</h3>
+                    <p class="research-text">Jazz is a vibrant and dynamic music genre that originated in the early 20th century in the United States, primarily among African American communities in New Orleans. Characterized by its unique blend of African rhythms, blues, ragtime, and European musical traditions, jazz emphasizes improvisation, syncopation, and expressive melodies.</p>
+                    <a href="https://www.youtube.com/watch?v=Edwsf-8F3sI" target="_blank" class="video-link">Watch Michael Bublé - Feeling Good</a>
+                </section>
+
+                <!-- Disco Music Genre -->
+                <section id="disco" class="analysis-section">
+                    <h1 class="headline headline-1 section-title">Disco Music Genre</h1>
+                    <div class="footer-top"></div>
+                    <br>
+                    <h3 class="headline headline-2 section-title">Definition of Disco Music</h3>
+                    <p class="research-text">Disco music (also known in English disco music or, in French, discothèque) is a dance music genre whose popularity peaked in the mid-1970s. Latin Americans and psychedelic music connoisseurs, as well as other communities in New York City and Philadelphia during the 1970s.</p>
+                    <a href="https://www.youtube.com/watch?v=16y1AkoZkmQ" target="_blank" class="video-link">Watch Boney M. - Rasputin</a>
+                </section>
+
+                <!-- Classical Music Genre -->
+                <section id="classical" class="analysis-section">
+                    <h1 class="headline headline-1 section-title">Classical Music Genre</h1>
+                    <div class="footer-top"></div>
+                    <br>
+                    <h3 class="headline headline-2 section-title">Definition of Classical Music</h3>
+                    <p class="research-text">Classical music is a broad genre that encompasses a wide range of Western art music composed over several centuries, typically from the medieval period to the present day. It is characterized by its structured forms, complex harmonies, and orchestration, often emphasizing the written score rather than improvisation.</p>
+                    <a href="https://www.youtube.com/watch?v=_4IRMYuE1hI" target="_blank" class="video-link">Watch Beethoven's 5th Symphony</a>
+                </section>
+
+                <!-- Electronic Music Genre -->
+                <section id="electronic" class="analysis-section">
+                    <h1 class="headline headline-1 section-title">Electronic Music Genre</h1>
+                    <div class="footer-top"></div>
+                    <br>
+                    <h3 class="headline headline-2 section-title">Definition of Electronic Music</h3>
+                    <p class="research-text">Electronic music is a broad genre that primarily involves the use of electronic devices and technology to create sound. Emerging in the mid-20th century, it encompasses a wide range of styles, including techno, house, trance, drum and bass, and ambient music. Characterized by synthesized sounds, beats, and samples, electronic music often features rhythmic patterns and textures that distinguish it from traditional acoustic genres.</p>
+                    <a href="https://www.youtube.com/watch?v=MjlTKXujfwE" target="_blank" class="video-link">Watch J. Balvin, Skrillex - In Da Getto</a>
+                </section>
+
+                <!-- Traditional Music Genre -->
+                <section id="traditional" class="analysis-section">
+                    <h1 class="headline headline-1 section-title">Traditional Music Genre</h1>
+                    <div class="footer-top"></div>
+                    <br>
+                    <h3 class="headline headline-2 section-title">Definition of Traditional Music</h3>
+                    <p class="research-text">Traditional music refers to the folk music that has been passed down through generations within a specific culture or community, often reflecting the history, values, and customs of that group. This genre typically includes songs, dances, and instrumental pieces that are tied to cultural rituals, celebrations, and daily life.</p>
+                    <a href="https://www.youtube.com/watch?v=TrPvQvbp3Cg" target="_blank" class="video-link">Watch Coke Studio Season 9 | Paar Chanaa De | Shilpa Rao & Noori</a>
+                </section>
+
+                <!-- Metal Music Genre -->
+                <section id="metal" class="analysis-section">
+                    <h1 class="headline headline-1 section-title">Metal Music Genre</h1>
+                    <div class="footer-top"></div>
+                    <br>
+                    <h3 class="headline headline-2 section-title">Definition of Heavy Metal Music</h3>
+                    <p class="research-text">Heavy metal is a genre of rock music characterized by its loud, aggressive sound, heavy use of distorted electric guitars, powerful drumming, and strong vocals, often with a theatrical or rebellious edge. Emerging in the late 1960s and early 1970s, heavy metal drew influences from blues rock, psychedelic rock, and hard rock. Key elements include complex guitar solos, dark themes, and a strong emphasis on rhythm.</p>
+                    <a href="https://www.youtube.com/watch?v=5abamRO41fE" target="_blank" class="video-link">Watch Slipknot - Psychosocial</a>
+                </section>
+
+                <!-- More details section  -->
+                <section id="more-details" class="camera-section">
+                      <h1 class="headline headline-1 section-title">Camera Angles and Movements</h1>
+                      <div class="footer-top"></div>
+                      <br>
+                      <div class="content">
+                        <p class="research-text">
+                          The way the camera is used is extremely important in producing meaning within a music video. The angles and movements can help create different effects. The shots are what make the video unique. Below are different shots and movements:
+                        </p>
+                  
+                        <ul class="research-text">
+                          <li><strong>Very Wide Shot:</strong> Used to show the audience where the artist is, but the emphasis is still on the artist in front of the setting or location.</li>
+                          <li><strong>Wide Shot:</strong> Focuses on the artist while still allowing the audience to see the location of the video.</li>
+                          <li><strong>Mid Shot:</strong> Shows the artist from their waist to the head, focusing mainly on the subject but still giving a feel for the location and setting.</li>
+                          <li><strong>Medium Shot:</strong> Halfway between a mid shot and a close-up, showing the artist’s chest and head.</li>
+                          <li><strong>Close-up:</strong> Shows the artist’s face or an object in detail; this shot can reveal more about the mise-en-scène as facial expressions, color, and makeup contribute towards the video.</li>
+                          <li><strong>Extreme Close-up:</strong> Focuses closely on the artist’s face (e.g., eyes, nose, lips) to identify something or to add meaning and effect to the video. It can also show that the video is lip-synced.</li>
+                          <li><strong>Over-the-Shoulder Shot:</strong> This shot is effective in narrative-based music videos as it gives the perspective of the artist's view while including them in it. It can also be used as a shot-reverse-shot if the artist is having a conversation with someone.</li>
+                          <li><strong>Cut-ins:</strong> Often used to match the lyrics within the music video. If something is said within a song, for example, an object is described, the object may then come into view.</li>
+                        </ul>
+                  
+                        <p class="research-text">
+                          Just like movements, camera angles significantly impact the meaning and style of the music video. Wherever a camera is placed can show the power of the artist/characters or sometimes show an exact location from which we should be seeing it. By choosing different angles, the viewers gain different perspectives on the action, which makes it more interesting.
+                        </p>
+                  
+                        <p class="research-text">
+                          An example of this is <strong>"Salute"</strong> by Little Mix, which showcases various angles and movements, particularly from a low angle, demonstrating the power the girls need to overcome issues of equality. The music video features a lot of different angles and movements, particularly from a low angle view, which helps convey the message of empowerment.
+                        </p>
+                      </div>
+                      <br>
+                      <h2 class="headline headline-2 section-title">Camera Movements</h2>
+                      <div class="content">
+                        <p class="research-text">
+                          Different camera movements can be used to add effects to music videos. Examples of camera movements are:
+                        </p>
+                  
+                        <ul class="research-text">
+                          <li><strong>Pans:</strong> This occurs when the camera scans the scene horizontally. The camera is usually placed on a tripod, and the camera is turned to follow the object which is typically situated in the middle of the screen.</li>
+                          <li><strong>Dolly or Tracking Shots:</strong> This is where the camera is mounted on a cart that travels along a smooth track to follow the action.</li>
+                        </ul>
+                  
+                        <p class="research-text">
+                          Just like in any other form of video media, certain camera movements are used for different reasons; an establishing shot will generally set the scene at the beginning; a long shot will normally set out the location of a closer scene, allowing the audience to better understand the atmosphere; mid shots and close-ups will be used to see the artist's face and emotions depending on the music style.
+                        </p>
+                  
+                        <p class="research-text">
+                          For example, <strong>"Hollaback Girl"</strong> by Gwen Stefani features various tracking and panning shots which are both slow and fast. This gives the music video a dynamic energy because they are always on the move, presenting the artist in a lively way and providing a visual narrative that keeps the audience engaged.
+                        </p>
+                      </div>
+                      
+                      <h2 class="headline headline-2 section-title">Editing Techniques</h2>
+                      <div class="content">
+                        <p class="research-text">
+                          When editing, various techniques are utilized to enhance the video and give it a professional feel. Common editing techniques include transitions such as fade to black, green screen effects, and adjustments to lighting, contrast, and brightness.
+                        </p>
+                        
+                        <h3 class="headline headline-2 section-title">Glossary of Cuts</h3>
+                        <ul class="research-text">
+                          <li>Cutting on Action: Cutting while there is movement on-screen.</li>
+                          <li>Cutaway: Cutting to an insert shot and then back.</li>
+                          <li>Cross-Cutting: Back and forth between locations (e.g., phone call).</li>
+                          <li>Jump Cuts: Disjointed edits in the same shot or action.</li>
+                          <li>Match Cut: Cut from one shot to a similar shot by matching the action or composition.</li>
+                        </ul>
+                        
+                        <h3 class="headline headline-2 section-title">Glossary of Transitions</h3>
+                        <ul class="research-text">
+                          <li>Fade in/out: Transition to/from black.</li>
+                          <li>Dissolve: Blend shots together.</li>
+                          <li>Smash Cut: Abrupt transition from one scene to another.</li>
+                          <li>Iris: Old-fashioned transition; a circle that opens and closes in the camera.</li>
+                          <li>Wipes: Screen wipes from one side to the other.</li>
+                          <li>Invisible Cuts: Create the impression of a single take.</li>
+                          <li>L-cut: Audio transition where the sound from the next scene starts before you see it.</li>
+                          <li>J-cut: Audio of the next scene starts before you transition to the visual.</li>
+                        </ul>
+                      </div>
+                      <br>
+                      <h2 class="headline headline-2 section-title">Sound</h2>
+                      <div class="content">
+                        <p class="research-text">
+                          Music videos incorporate two types of sound: diegetic and non-diegetic. Diegetic sound is naturally present in the video, while non-diegetic sound is added during editing. Sound can be edited to create different effects and variations in the artist's vocals.
+                        </p>
+                        
+                        <h3 class="headline headline-2 section-title">Key Sound Terminology</h3>
+                        <ul class="research-text">
+                          <li>Soundtrack: The recorded sound element of a film.</li>
+                          <li>Theme Music/Tune: A recurrent melody in the film.</li>
+                          <li>Sound Effects: Sounds other than dialogue or music made artificially.</li>
+                          <li>Ambient Sound: Background noise and surrounding environmental sounds.</li>
+                          <li>Dialogue: Speech.</li>
+                          <li>Voiceover: Narration in a film not synchronized with the image of the speaker.</li>
+                          <li>Direct Address: When characters speak directly to the camera/audience.</li>
+                          <li>Diegetic Sound: Any sound that has an onscreen source and belongs to the world of the film (e.g., dialogues and atmospheric sounds).</li>
+                          <li>Non-Diegetic Sound: Any sound that does not have an onscreen source and is not heard by the characters (e.g., some voiceovers, music).</li>
+                          <li>Sound Bridges: Any sounds that continue from one shot to another, enhancing the continuity of the film.</li>
+                          <li>Parallel Sound: Sound that complements the image track, reflecting each other.</li>
+                          <li>Contrapuntal Sound: Sound that does not complement or fit with the image track.</li>
+                        </ul>
+                      </div>
+                      
+                      <h2 class="headline headline-2 section-title">Mise-En-Scène</h2>
+                      <div class="content">
+                        <p class="research-text">
+                          The mise-en-scène for music videos varies with the genre, consisting of the following components:
+                        </p>
+                        <ul class="research-text">
+                          <li>Lighting: How the scene is lit.</li>
+                          <li>Props: Objects and items within the frame.</li>
+                          <li>Costume: What the artist is wearing.</li>
+                          <li>Hair and Makeup: The style of the artist.</li>
+                          <li>Location: Where the music video is filmed.</li>
+                          <li>Colour: Specific colors representing certain moods and atmospheres.</li>
+                        </ul>
+                      </div>
+                      <div class="footer-top"></div>
+                      <p class="image-caption subheading">Appreciate for Reading my Music Genre Analysis - Hope so you have learned something NEW  :)</p>
+                </section>
+                          
+
+            </div>
+        </section>
+    </main>
+    
+
+  <!-- FOOTER -->
+<footer class="footer">
+    <div class="container">
+  
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; Developed by <a href="#" class="copyright-link">ѕтяαηgєr</a>
+        </p>
+  
+        <ul class="social-list">
+          <li>
+            <a href="https://www.facebook.com/share/NR9snGd8MEPrptQS/" class="social-link" target="_blank" rel="noopener noreferrer">
+              <ion-icon name="logo-facebook"></ion-icon>
+              <span class="span">Facebook</span>
+            </a>
+          </li>
+  
+          <li>
+            <a href="https://www.linkedin.com/in/abdullah-ejaz-2918031b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link" target="_blank" rel="noopener noreferrer">
+              <ion-icon name="logo-linkedin"></ion-icon>
+              <span class="span">LinkedIn</span>
+            </a>
+          </li>
+  
+          <li>
+              <a href="https://www.instagram.com/abdullah._ejazx/" class="social-link" target="_blank" rel="noopener noreferrer">
+              <ion-icon name="logo-instagram"></ion-icon>
+              <span class="span">Instagram</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+  
+    </div>
+  </footer>
+  
+  <!-- BACK TO TOP BUTTON -->
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+  </a>
+  
+  <!-- SCRIPTS -->
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+  
+  </html>
+  

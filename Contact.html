@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+    <html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 
+    - primary meta tags
+    -->
+    <title>Abdullah Ejaz Portfolio</title>
+    <meta name="title" content="Abdullah - Perosonal Portfolio Website">
+    <meta name="description" content="This is a personal portfolio website">
+
+    <!-- 
+    - favicon
+    -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+    <!-- 
+    - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+    <!-- 
+    - custom css link
+    -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- 
+    - preload images
+    -->
+    <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+    <link rel="preload" as="image" href="./assets/images/pattern-2.svg">
+    <link rel="preload" as="image" href="./assets/images/pattern-3.svg">
+
+</head>
+
+<body id="top">
+
+<!-- 
+    - #HEADER
+-->
+
+<header class="header" data-header>
+    <div class="container">
+    
+        <a href="index.html" class="logo">
+        <img src="./assets/images/logo.svg" width="119" height="37" alt="Ab logo">
+        </a>
+    
+        <nav class="navbar" data-navbar>
+    
+        <div class="navbar-top">
+            <a href="index.html" class="logo">
+            <img src="./assets/images/logo.svg" width="119" height="37" alt="Ab logo">
+            </a>
+    
+            <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+        </div>
+    
+        <ul class="navbar-list">
+    
+            <li>
+            <a href="index.html" class="navbar-link hover-1" data-nav-toggler>Home</a>
+            </li>
+    
+            <li>
+            <a href="AboutMe.html" class="navbar-link hover-1" data-nav-toggler>About Me</a>
+            </li>
+    
+            <!-- Research Dropdown -->
+            <li class="dropdown">
+            <a href="Research.html" class="navbar-link hover-1" data-nav-toggler>Research</a>
+            <ul class="dropdown-content">
+                <li><a href="Research.html#music-videos" class="navbar-link hover-1">Music Video?</a></li>
+                <li><a href="Research.html#prehistories" class="navbar-link hover-1">Prehistories</a></li>
+                <li><a href="Research.html#style-of-video" class="navbar-link hover-1">Style of Video</a></li>
+                <li><a href="Research.html#Make-a-video" class="navbar-link hover-1">Make a Video</a></li>
+            </ul>
+            </li>
+    
+            <!-- Analysis Dropdown -->
+            <li class="dropdown">
+            <a href="Analysis.html" class="navbar-link hover-1" data-nav-toggler>Analysis</a>
+            <ul class="dropdown-content">
+                <li><a href="Analysis.html#performance" class="navbar-link hover-1">Performance</a></li>
+                <li><a href="Analysis.html#narrative" class="navbar-link hover-1">Narrative</a></li>
+                <li><a href="Analysis.html#experimental" class="navbar-link hover-1">Experimental</a></li>
+                <li><a href="Analysis.html#pop-music" class="navbar-link hover-1">Pop Music</a></li>
+                <li><a href="Analysis.html#hiphop-music" class="navbar-link hover-1">Hip Hop Music</a></li>
+                <li><a href="Analysis.html#rock-music" class="navbar-link hover-1">Rock Music</a></li>
+                <li><a href="Analysis.html#other-rythms" class="navbar-link hover-1">Other Genres</a></li>
+                <li><a href="Analysis.html#more-details" class="navbar-link hover-1">More Details</a></li>
+            </ul>
+            </li>
+    
+            <li>
+            <a href="Contact.html" class="navbar-link hover-1" data-nav-toggler>Contact</a>
+            </li>
+        </ul>
+        <p class="copyright-text">Copyright 2024 © Abdullah.</p>
+        <p class="copyright-text">Developed by ѕтяαηgєr</p>
+        </nav>
+    
+        <a href="https://www.instagram.com/abdullah._ejazx/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Follow</a>
+    
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+            <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+    
+    </div>
+    </header>
+  
+<!-- Contact Form  -->
+<section id="contact" class="contact">
+    <div class="container">
+      <br>
+      <h1 class="headline headline-1 section-title">
+        <span class="span">Contact Me</span>
+      </h1>
+  
+      <p class="contact-text">
+        I'd love to hear from you! Please fill out the form below, and I'll get back to you as soon as possible.
+      </p>
+  
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <div class="form-group">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" id="name" name="name" class="form-input" placeholder="Your Name" required>
+        </div>
+  
+        <div class="form-group">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" id="email" name="email" class="form-input" placeholder="Your Email" required>
+        </div>
+  
+        <div class="form-group">
+          <label for="message" class="form-label">Message</label>
+          <textarea id="message" name="message" class="form-input" placeholder="Your Message" rows="5" required></textarea>
+        </div>
+  
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+  
+      <!-- Message Display -->
+      <div id="response-message" class="response-message" style="display: none;"></div>
+    </div>
+  </section>
+  
+<script>
+    function handleSubmit(event) {
+      event.preventDefault(); // Prevent the default form submission behavior
+  
+      // Get form values
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const message = document.getElementById('message').value;
+  
+      // Show a response message
+      const responseMessage = document.getElementById('response-message');
+      responseMessage.style.display = 'block';
+      responseMessage.innerHTML = `Your message has been forwarded...`;
+      responseMessage.style.color = 'green'; // Optional: Change text color for better visibility
+  
+      // Clear the form
+      document.querySelector('.contact-form').reset();
+    }
+</script>
+  
+  
+  
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+  
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; Developed by <a href="#" class="copyright-link">ѕтяαηgєr</a>
+        </p>
+  
+        <ul class="social-list">
+          <li>
+            <a href="https://www.facebook.com/share/NR9snGd8MEPrptQS/" class="social-link" target="_blank" rel="noopener noreferrer">
+              <ion-icon name="logo-facebook"></ion-icon>
+              <span class="span">Facebook</span>
+            </a>
+          </li>
+  
+          <li>
+            <a href="https://www.linkedin.com/in/abdullah-ejaz-2918031b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link" target="_blank" rel="noopener noreferrer">
+              <ion-icon name="logo-linkedin"></ion-icon>
+              <span class="span">LinkedIn</span>
+            </a>
+          </li>
+  
+          <li>
+              <a href="https://www.instagram.com/abdullah._ejazx/" class="social-link" target="_blank" rel="noopener noreferrer">
+              <ion-icon name="logo-instagram"></ion-icon>
+              <span class="span">Instagram</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+  
+    </div>
+</footer>
+  
+<!-- BACK TO TOP BUTTON -->
+<a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+<ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+</a>
+
+<!-- SCRIPTS -->
+<script src="./assets/js/script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</html>
+
+</body>
+</html>
+
+
+
+
+  
